@@ -11,3 +11,4 @@ lsp-server="0.5.0"
 lsp-types="0.86"
 serde_json = "1.0.34"
 serde = { version = "1.0.83", features = ["derive"] }
+naga = {  git = "https://github.com/gfx-rs/naga.git", branch = "master",  features=["wgsl-in"] }
